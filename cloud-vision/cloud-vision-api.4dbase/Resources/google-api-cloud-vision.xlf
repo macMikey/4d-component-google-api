@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<xliff version="1.0" xmlns:d4="http://www.4d.com/d4-ns">
+  <file datatype="x-STR#" original="undefined" product-version="v15" source-language="en-US" target-language="en-US">
+    <header>
+      <note>https://cloud.google.com/vision/docs/reference/rest/</note>
+    </header>
+    <body>
+
+      <group resname="themes">
+        <trans-unit id="15C08929484A4E11BD83A125E3A58456" resname="15C08929484A4E11BD83A125E3A58456" translate="no">
+          <source>Google Cloud Vision Limits</source>
+        </trans-unit>
+        <trans-unit id="E4842D07B3DA42C9A321494FA8899836" resname="E4842D07B3DA42C9A321494FA8899836" translate="no">
+          <source>Google Cloud Vision Features</source>
+        </trans-unit>
+        <trans-unit id="3DB23C6C1AA64827B05D51E05EB7F2EC" resname="3DB23C6C1AA64827B05D51E05EB7F2EC" translate="no">
+          <source>Google Cloud Vision Endpoints</source>
+        </trans-unit>
+      </group>
+
+      <group d4:groupName="15C08929484A4E11BD83A125E3A58456" restype="x-4DK#">
+        <trans-unit d4:value="4194304:L" id="15C08929484A4E11BD83A125E3A58456.0">
+          <source>Google cloud vision max file size</source>
+        </trans-unit>
+      </group>
+
+      <group d4:groupName="E4842D07B3DA42C9A321494FA8899836" restype="x-4DK#">
+        <trans-unit d4:value="0:L" id="E4842D07B3DA42C9A321494FA8899836.0">
+          <source>TYPE_UNSPECIFIED</source>
+        </trans-unit>
+        <trans-unit d4:value="1:L" id="E4842D07B3DA42C9A321494FA8899836.1">
+          <source>FACE_DETECTION</source>
+        </trans-unit>
+        <trans-unit d4:value="0:L" id="E4842D07B3DA42C9A321494FA8899836.1b">
+          <source>FACE_DETECTION_BIT</source>
+        </trans-unit>
+        <trans-unit d4:value="2:L" id="E4842D07B3DA42C9A321494FA8899836.2">
+          <source>LANDMARK_DETECTION</source>
+        </trans-unit>
+        <trans-unit d4:value="1:L" id="E4842D07B3DA42C9A321494FA8899836.2b">
+          <source>LANDMARK_DETECTION_BIT</source>
+        </trans-unit>
+        <trans-unit d4:value="4:L" id="E4842D07B3DA42C9A321494FA8899836.3">
+          <source>LOGO_DETECTION</source>
+        </trans-unit>
+        <trans-unit d4:value="2:L" id="E4842D07B3DA42C9A321494FA8899836.3b">
+          <source>LOGO_DETECTION_BIT</source>
+        </trans-unit>
+        <trans-unit d4:value="8:L" id="E4842D07B3DA42C9A321494FA8899836.4">
+          <source>LABEL_DETECTION</source>
+        </trans-unit>
+        <trans-unit d4:value="3:L" id="E4842D07B3DA42C9A321494FA8899836.4b">
+          <source>LABEL_DETECTION_BIT</source>
+        </trans-unit>
+        <trans-unit d4:value="16:L" id="E4842D07B3DA42C9A321494FA8899836.5">
+          <source>TEXT_DETECTION</source>
+        </trans-unit>
+				<trans-unit d4:value="4:L" id="E4842D07B3DA42C9A321494FA8899836.5b">
+					<source>TEXT_DETECTION_BIT</source>
+				</trans-unit>
+        <trans-unit d4:value="32:L" id="E4842D07B3DA42C9A321494FA8899836.6">
+          <source>DOCUMENT_TEXT_DETECTION</source>
+        </trans-unit>
+				<trans-unit d4:value="5:L" id="E4842D07B3DA42C9A321494FA8899836.6b">
+					<source>DOCUMENT_TEXT_DETECTION_BIT</source>
+				</trans-unit>
+        <trans-unit d4:value="64:L" id="E4842D07B3DA42C9A321494FA8899836.7">
+          <source>SAFE_SEARCH_DETECTION</source>
+        </trans-unit>
+				<trans-unit d4:value="6:L" id="E4842D07B3DA42C9A321494FA8899836.7b">
+					<source>SAFE_SEARCH_DETECTION_BIT</source>
+				</trans-unit>
+        <trans-unit d4:value="128:L" id="E4842D07B3DA42C9A321494FA8899836.8">
+          <source>IMAGE_PROPERTIES</source>
+        </trans-unit>
+				<trans-unit d4:value="7:L" id="E4842D07B3DA42C9A321494FA8899836.8b">
+					<source>IMAGE_PROPERTIES_BIT</source>
+				</trans-unit>
+        <trans-unit d4:value="256:L" id="E4842D07B3DA42C9A321494FA8899836.9">
+          <source>CROP_HINTS</source>
+        </trans-unit>
+				<trans-unit d4:value="8:L" id="E4842D07B3DA42C9A321494FA8899836.9b">
+					<source>CROP_HINTS_BIT</source>
+				</trans-unit>
+        <trans-unit d4:value="512:L" id="E4842D07B3DA42C9A321494FA8899836.10">
+          <source>WEB_DETECTION</source>
+        </trans-unit>
+				<trans-unit d4:value="9:L" id="E4842D07B3DA42C9A321494FA8899836.10b">
+					<source>WEB_DETECTION_BIT</source>
+				</trans-unit>
+      </group>
+      
+      <group d4:groupName="3DB23C6C1AA64827B05D51E05EB7F2EC" restype="x-4DK#">
+        <trans-unit d4:value="https://vision.googleapis.com/v1/images:annotate" id="3DB23C6C1AA64827B05D51E05EB7F2EC.0">
+          <source>Google cloud vision images annotate</source>
+        </trans-unit>
+      </group>
+      
+    </body>
+  </file>
+</xliff>
