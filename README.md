@@ -13,7 +13,7 @@ The code is specific to using the [Google Cloud Vision API](https://cloud.google
 [Authenticating to the Cloud Vision API](https://cloud.google.com/vision/docs/auth)
 ---
 
-**Note**: These constants are defined in ``/resources/google-api-credentials.xlf``. Replace them with your own keys.
+**Note**: These constants are defined in [google-api-credentials.xlf](https://github.com/miyako/4d-component-google-api/blob/master/cloud-vision/cloud-vision-api.4dbase/Resources/google-api-credentials.xlf). Replace them with your own keys.
 
 ``Google client account``
 
