@@ -13,6 +13,8 @@ The code is specific to using the [Google Cloud Vision API](https://cloud.google
 [Authenticating to the Cloud Vision API](https://cloud.google.com/vision/docs/auth)
 ---
 
+**Note**: The constants are defined in ``/resources/google-api-cloud-vision.xlf`` and ``/resources/google-api-credentials.xlf``. Replace them with your own keys.
+
 ### Using an API key
 
 ```
