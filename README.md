@@ -13,9 +13,10 @@ Example calls Google Cloud Vision (OCR) to read text in image.
 
 ![oauth2](https://user-images.githubusercontent.com/1725068/30836937-64264c88-a29c-11e7-9ea5-8fd4b363f6fc.png)
 
-### [Authenticating to the Cloud Vision API](https://cloud.google.com/vision/docs/auth)
+[Authenticating to the Cloud Vision API](https://cloud.google.com/vision/docs/auth)
+---
 
-* Using an API key
+### Using an API key
 
 ```
 READ PICTURE FILE(Get 4D folder(Current resources folder)+"sample.png";$image)
@@ -34,9 +35,9 @@ If ($status=200)
 End if 
 ```
 
-* Using a service account
+### Using a service account
 
-### Authorization
+* Authorization
 
 ```
 $client:=Google client account
@@ -61,7 +62,7 @@ If (OK=1)
 End if 
 ```
 
-### Get Access token
+* Get Access token
 
 ```
 $path:=Get_user_folder +"auth"
@@ -100,7 +101,7 @@ If ($status=200)
 End if 
 ```
 
-### Use Refresh token
+* Use Refresh token
 
 ```
 $path:=Get_user_folder +"token"
@@ -141,7 +142,7 @@ If ($status=200)
 End if 
 ```
 
-### Use OAuth2 token
+* Use OAuth2 token
 
 ```
 $path:=Get_user_folder +"token"
