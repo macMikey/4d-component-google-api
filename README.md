@@ -1,5 +1,7 @@
 # 4d-component-google-api
-Example of calling Google APIs from 4D
+Example of calling Google APIs from 4D.
+
+The code is specific to using the [Google Cloud Vision API](https://cloud.google.com/vision/) but the methods for authentication can be applied to  ``OAuth2`` services in general. 
 
 ### Version
 
