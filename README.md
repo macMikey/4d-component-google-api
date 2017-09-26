@@ -18,22 +18,7 @@ Example calls Google Cloud Vision (OCR) to read text in image.
 * Using an API key
 
 ```
-$imageUri:="https://cloud.google.com/vision/images/rushmore.jpg"
-
-$url:=Google cloud vision images annotate+"?key="+Google api key
-
-C_OBJECT($request;$response)
-$request:=AnnotateImageRequest (->$imageUri;LANDMARK_DETECTION | WEB_DETECTION;3)
-
-$status:=HTTP Request(HTTP POST method;$url;$request;$response)
-```
-
-or 
-
-```
 READ PICTURE FILE(Get 4D folder(Current resources folder)+"sample.png";$image)
-
-SET PICTURE TO PASTEBOARD($image)
 
 $url:=Google cloud vision images annotate+"?key="+Google api key
 
